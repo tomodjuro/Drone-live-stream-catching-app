@@ -62,7 +62,7 @@ Drone-live-stream-catching-app/
 ├── ffplay.exe                              # FFplay executable (manually added)
 ├── icon.ico                                # Application icon
 ├── mona_launcher.py                        # Main Python GUI entry point
-├── upute_za _koristenje_gotove_aplikacije.txt  # User instructions guide
+├── app_instructions.txt                    # User instructions guide
 ├── requirements.txt                        # Python dependencies
 └── README.md                               # Project documentation
 ```
