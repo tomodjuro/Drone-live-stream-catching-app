@@ -1,0 +1,92 @@
+Upute:
+
+* Ovaj način rada za dobivanje live streama može raditi bez korištenja mobilnih podataka (interneta) te se može koristiti u šumama i    	drugdje gdje nema signala, međutim ako ima signala poželjno je koristiti mobilne podatke.
+  Ako radiš bez mobilnih podataka, može se dogoditi da pukne live stream tokom rada jer laptop automatski traži wifi sa internetom ali nije važno, samo ponovno pokreni live stream na kontroleru i opet sve radi
+
+1. UKLJUČI WIFI HOTSPOT NA MOBITELU i spoji se sa laptopom i kontrolerom (to je ako imaš RC 2, a u slučaju RC N2 - spojiš se mobitelom koji je prikopčan na njega)
+samo u slučaju da imaš kontroler RC 2, potrebno je u njega ukopčati preko usb-c utora neki uređaj s mikrofonom jer bez toga neće raditi live stream
+
+
+* Prije pokretanja aplikacije Dron_stream_catcher(.exe) možda bi trebalo u Firewall-u i/ili Antivirusnom programu dopustit da se otvori (napravit exception) ili to napraviš nakon što pokreneš aplikaciju kada sustav ponudi upit
+
+2. POKRENI APLIKACIJU Dron_stream_catcher.exe
+
+U prozoru će se pojaviti IP adresa tvog laptopa i rtmp stream adresa koju ćeš kasnije upisati u izborniku na kontroleru.
+Provjeri da li je prikazana zelena lampica za Status Monaservera, ako nije, klikni Pokreni Monaserver
+
+
+3. UKLJUČI DRON I KONTROLER, uđi u DJI Fly aplikaciju na kontroleru i stisni Go Fly (u slučaju da se već nije samo pokrenulo).
+
+
+4. KADA SE POJAVI SLIKA SA KAMERE na zaslonu kontrolera, Gore desno stisni na tri točkice (...) za otvaranje izbornika.
+
+    Idi na karticu Transmission (Prijenos).
+
+    Stisni Live Streaming Platforms i odaberi RTMP.
+
+    U polje za unos URL-a moraš upisati točan sintaktički format (rtmp stream adresa).
+ 
+    Točan format unosa:
+    rtmp://[LOKALNA_IP_ADRESA_LAPTOPA]:1935/live/mojstream
+
+Opcija A: Ako imaš samo jedno polje (RTMP URL)
+
+Sve spajaš u jedan redak koristeći kosu crtu (/):
+
+    RTMP URL: rtmp://[IP_ADRESA_LAPTOPA]:1935/live/mojstream
+
+Opcija B: Ako imaš dva odvojena polja
+
+U tom slučaju adresu upisuješ ovako:
+
+    RTMP URL: rtmp://[IP_ADRESA_LAPTOPA]:1935/live/
+
+    Stream Key: mojstream
+
+(Riječ mojstream je ovdje proizvoljna – možeš upisati dron, test, 123 ili bilo što drugo).
+
+
+5. ODOBRI ADRESU tj. stisni plavi gumb dolje desno kada upišeš adresu i pritisni Start pa će krenuti odbrojavanje i pojavit će se mala narančasta ikonica na ekranu koja znači da je sve ok i stream radi
+
+
+6. VRATI SE NA LAPTOP U APLIKACIJU i provjeri da li je uključena zelena lampica pod Status Dron Streama, ako je, onda znači da se Live stream uspješno pokrenuo
+
+
+7. NA APLIKACIJI STISNI GUMB Otvori Live Stream i nakon par sekundi obrade koda se otvori prozor sa ugrađenim video playerom i to je to. Kad završiš samo klikni mali x gumb gore desno u prozoru
+
+
+
+* ALERNATIVA za gledanje streama:
+
+ - VLC:
+
+    Otvori VLC Media Player.
+
+    Klikni na Media (Mediji) -> Open Network Stream (Otvori mrežni prijenos/tok).
+
+    Upiši potpuno istu adresu koju si upisao u dron: rtmp://[LOKALNA_IP_ADRESA_LAPTOPA]:1935/live/mojstream
+
+    Klikni Play.
+
+
+ - Youtube Stream:
+	
+	Na računalu otvori i ulogiraj se na Youtube, stisni ikonu svoju pa Youtube Studio pa Create pa Go Live,
+zatim se otvara prozor gdje su postavke i RTMP adresa i Key koji se trebaju upisati u kontroler u aplikaciji DJI Fly, slično kao i za ovu aplikaciju
+
+
+
+* GREŠKE/Ako stream ne radi
+
+Windows po zadanim postavkama blokira dolazni promet na nepoznatim portovima ako si spojen na mobilni hotspot,
+ (jer ga prepoznaje kao "Public network").
+
+    Na laptopu otvori Windows Defender Firewall (Vatrozid) -> Advanced Settings (Napredne postavke).
+
+    Klikni na Inbound Rules (Ulazna pravila), pa na New Rule (Novo pravilo).
+
+    Odaberi Port, klikni Next, odaberi TCP i u polje upiši port koji MonaServer koristi: 1935.
+
+    Klikni Next, odaberi Allow the connection (Dopusti vezu) i dovrši čarobnjak dajući pravilu ime (npr. "MonaServer").
+
+Ako je sve prošlo u redu u prozoru MonaServera na laptopu će se biti prikazano da je sve spojeno

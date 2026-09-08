@@ -1,0 +1,3 @@
+Ovo je ffplay - player koji sam ručno stavio u folder i u kojem se gleda live stream sa drona.
+Zbog veličine programa cca 100 MB, nije moguće učitat u repository pa to treba napraviti ručno, ovdje je samo txt sa nazivom playera.
+Također zbog konačne veličine aplikacije preko 300 MB, treba ručno build-at aplikaciju a upute su u Readme.md
