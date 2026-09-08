@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ## Running the Application (Development)
 
-1. Ensure `ffplay.exe` and the `MonaServer` directory are present in the project folder.
+1. Ensure `ffplay.exe` is present in the project folder.
 2. Run the main script:
    ```bash
    python mona_launcher.py
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 To compile the application into a standalone Windows executable using **PyInstaller**, run the following command in your terminal/command prompt:
 
 ```bash
-pyinstaller --noconsole --onedir --icon=icon.ico --hidden-import PySide6 --add-data "MonaServer;MonaServer" --add-data "ffplay.exe;." --add-data "upute_za _koristenje_gotove_aplikacije.txt;." --add-data "icon.ico;." --name="Dron Stream Catcher" mona_launcher.py
+pyinstaller --noconsole --onedir --icon=icon.ico --hidden-import PySide6 --add-data "MonaServer;MonaServer" --add-data "ffplay.exe;." --add-data "app_instructions.txt;." --add-data "icon.ico;." --name="Dron Stream Catcher" mona_launcher.py
 ```
 
 After the build process completes, the output executable and its assets will be available in the `dist/Dron Stream Catcher/` folder.
