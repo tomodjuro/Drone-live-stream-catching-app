@@ -1,92 +1,84 @@
-Upute:
+Instructions:
 
-* Ovaj način rada za dobivanje live streama može raditi bez korištenja mobilnih podataka (interneta) te se može koristiti u šumama i    	drugdje gdje nema signala, međutim ako ima signala poželjno je koristiti mobilne podatke.
-  Ako radiš bez mobilnih podataka, može se dogoditi da pukne live stream tokom rada jer laptop automatski traži wifi sa internetom ali nije važno, samo ponovno pokreni live stream na kontroleru i opet sve radi
+* This method, for receiving a live stream, can work without mobile data (internet) and can be used in forests or other remote locations without signal; however, if a signal is available, using mobile data is recommended.
+  If operating without mobile data, the live stream may drop occasionally as the laptop automatically searches for a Wi-Fi connection with internet access. If this happens, simply restart the live stream on the controller and it will resume working.
 
-1. UKLJUČI WIFI HOTSPOT NA MOBITELU i spoji se sa laptopom i kontrolerom (to je ako imaš RC 2, a u slučaju RC N2 - spojiš se mobitelom koji je prikopčan na njega)
-samo u slučaju da imaš kontroler RC 2, potrebno je u njega ukopčati preko usb-c utora neki uređaj s mikrofonom jer bez toga neće raditi live stream
+1. TURN ON MOBILE HOTSPOT on your phone and connect both your laptop and controller to it. (This applies if you have the RC 2 controller; for the RC N2 controller, connect using the mobile device attached to it).
+   * Note for RC 2 controller users: You must plug an audio device with a microphone into the USB-C port of the controller, otherwise the live stream will not start.
 
+* Before running the application Dron_stream_catcher(.exe), you may need to allow it through your Firewall and/or Antivirus software (create an exception), or do so when prompted by the system after launching the app.
 
-* Prije pokretanja aplikacije Dron_stream_catcher(.exe) možda bi trebalo u Firewall-u i/ili Antivirusnom programu dopustit da se otvori (napravit exception) ili to napraviš nakon što pokreneš aplikaciju kada sustav ponudi upit
+2. LAUNCH THE APPLICATION Dron_stream_catcher.exe
 
-2. POKRENI APLIKACIJU Dron_stream_catcher.exe
+A window will open displaying your laptop's IP address and the RTMP stream address that you will enter into the controller menu later.
+Verify that the green status light for MonaServer is ON. If not, click "Start MonaServer".
 
-U prozoru će se pojaviti IP adresa tvog laptopa i rtmp stream adresa koju ćeš kasnije upisati u izborniku na kontroleru.
-Provjeri da li je prikazana zelena lampica za Status Monaservera, ako nije, klikni Pokreni Monaserver
+3. POWER ON THE DRONE AND CONTROLLER, open the DJI Fly app on the controller, and tap "Go Fly" (if it hasn't launched automatically).
 
+4. ONCE THE CAMERA FEED APPEARS on the controller screen, tap the three dots (...) in the top right corner to open the menu.
 
-3. UKLJUČI DRON I KONTROLER, uđi u DJI Fly aplikaciju na kontroleru i stisni Go Fly (u slučaju da se već nije samo pokrenulo).
+   Go to the Transmission tab.
 
+   Tap Live Streaming Platforms and select RTMP.
 
-4. KADA SE POJAVI SLIKA SA KAMERE na zaslonu kontrolera, Gore desno stisni na tri točkice (...) za otvaranje izbornika.
+   Enter the exact RTMP URL format in the input field.
 
-    Idi na karticu Transmission (Prijenos).
+   Correct syntax format:
+   rtmp://[LAPTOP_LOCAL_IP_ADDRESS]:1935/live/mystream
 
-    Stisni Live Streaming Platforms i odaberi RTMP.
+Option A: If you have a single input field (RTMP URL)
 
-    U polje za unos URL-a moraš upisati točan sintaktički format (rtmp stream adresa).
- 
-    Točan format unosa:
-    rtmp://[LOKALNA_IP_ADRESA_LAPTOPA]:1935/live/mojstream
+Combine everything into a single line separated by slash (/):
 
-Opcija A: Ako imaš samo jedno polje (RTMP URL)
+   RTMP URL: rtmp://[LAPTOP_IP_ADDRESS]:1935/live/mystream
 
-Sve spajaš u jedan redak koristeći kosu crtu (/):
+Option B: If you have two separate input fields
 
-    RTMP URL: rtmp://[IP_ADRESA_LAPTOPA]:1935/live/mojstream
+Enter the address as follows:
 
-Opcija B: Ako imaš dva odvojena polja
+   RTMP URL: rtmp://[LAPTOP_IP_ADDRESS]:1935/live/
 
-U tom slučaju adresu upisuješ ovako:
+   Stream Key: mystream
 
-    RTMP URL: rtmp://[IP_ADRESA_LAPTOPA]:1935/live/
+(The stream key "mystream" is arbitrary – you can type "drone", "test", "123", or any string of your choice).
 
-    Stream Key: mojstream
+5. CONFIRM THE ADDRESS by tapping the blue button at the bottom right after typing the address, then tap "Start". A countdown will begin, and a small orange icon will appear on the controller screen, indicating that the stream is active and working properly.
 
-(Riječ mojstream je ovdje proizvoljna – možeš upisati dron, test, 123 ili bilo što drugo).
+6. RETURN TO THE LAPTOP APPLICATION and check if the green status light for "Drone Stream Status" is ON. If it is green, the live stream has started successfully.
 
+7. IN THE APPLICATION, CLICK "Open Live Stream". After a few seconds of buffer/processing, a window with an embedded video player will open. Once finished, simply click the small "X" button at the top right of the window to close it.
 
-5. ODOBRI ADRESU tj. stisni plavi gumb dolje desno kada upišeš adresu i pritisni Start pa će krenuti odbrojavanje i pojavit će se mala narančasta ikonica na ekranu koja znači da je sve ok i stream radi
+---
 
+* ALTERNATIVE STREAM VIEWERS:
 
-6. VRATI SE NA LAPTOP U APLIKACIJU i provjeri da li je uključena zelena lampica pod Status Dron Streama, ako je, onda znači da se Live stream uspješno pokrenuo
+ - VLC Media Player:
 
+   Open VLC Media Player.
 
-7. NA APLIKACIJI STISNI GUMB Otvori Live Stream i nakon par sekundi obrade koda se otvori prozor sa ugrađenim video playerom i to je to. Kad završiš samo klikni mali x gumb gore desno u prozoru
+   Click Media -> Open Network Stream.
 
+   Enter the exact same address you entered in the drone: rtmp://[LAPTOP_LOCAL_IP_ADDRESS]:1935/live/mystream
 
+   Click Play.
 
-* ALERNATIVA za gledanje streama:
+ - YouTube Live Stream:
 
- - VLC:
+   On your computer, open and log into YouTube. Click your profile icon -> YouTube Studio -> Create -> Go Live.
+   This opens the live streaming setup window displaying your RTMP stream URL and Stream Key, which can be entered into the DJI Fly app on the controller in the same way.
 
-    Otvori VLC Media Player.
+---
 
-    Klikni na Media (Mediji) -> Open Network Stream (Otvori mrežni prijenos/tok).
+* TROUBLESHOOTING / If the stream does not work:
 
-    Upiši potpuno istu adresu koju si upisao u dron: rtmp://[LOKALNA_IP_ADRESA_LAPTOPA]:1935/live/mojstream
+Windows by default blocks incoming traffic on unknown ports when connected to a mobile hotspot (as it identifies it as a "Public network").
 
-    Klikni Play.
+   On your laptop, open Windows Defender Firewall -> Advanced Settings.
 
+   Click Inbound Rules, then click New Rule.
 
- - Youtube Stream:
-	
-	Na računalu otvori i ulogiraj se na Youtube, stisni ikonu svoju pa Youtube Studio pa Create pa Go Live,
-zatim se otvara prozor gdje su postavke i RTMP adresa i Key koji se trebaju upisati u kontroler u aplikaciji DJI Fly, slično kao i za ovu aplikaciju
+   Select Port, click Next, select TCP, and enter the port used by MonaServer: 1935.
 
+   Click Next, select "Allow the connection", and complete the wizard by naming the rule (e.g., "MonaServer").
 
-
-* GREŠKE/Ako stream ne radi
-
-Windows po zadanim postavkama blokira dolazni promet na nepoznatim portovima ako si spojen na mobilni hotspot,
- (jer ga prepoznaje kao "Public network").
-
-    Na laptopu otvori Windows Defender Firewall (Vatrozid) -> Advanced Settings (Napredne postavke).
-
-    Klikni na Inbound Rules (Ulazna pravila), pa na New Rule (Novo pravilo).
-
-    Odaberi Port, klikni Next, odaberi TCP i u polje upiši port koji MonaServer koristi: 1935.
-
-    Klikni Next, odaberi Allow the connection (Dopusti vezu) i dovrši čarobnjak dajući pravilu ime (npr. "MonaServer").
-
-Ako je sve prošlo u redu u prozoru MonaServera na laptopu će se biti prikazano da je sve spojeno
+If configured correctly, the MonaServer log window on your laptop will show that the connection has been established successfully.
