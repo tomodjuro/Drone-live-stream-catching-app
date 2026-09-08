@@ -1,0 +1,852 @@
+19/09 17:04:35.9  INFO   1920 Application.cpp[134]          MonaServer v2.723
+19/09 17:04:35.9  INFO   1920 Application.cpp[136]          Load configuration file MonaServer.ini
+19/09 17:04:35.9  NOTE   2692 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+19/09 17:04:35.9  NOTE   2692 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+19/09 17:04:35.9  NOTE   2692 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+19/09 17:04:35.9  NOTE   2692 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+19/09 17:04:35.9  NOTE   2692 Protocols.h[82]               WS server started on 0.0.0.0:80
+19/09 17:04:35.9  NOTE   2692 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+19/09 17:04:35.9  NOTE   2692 Protocols.h[82]               WSS server started on 0.0.0.0:443
+19/09 17:04:35.9  NOTE   2692 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+19/09 17:05:19.0  INFO   2692 Server.cpp[190]               Server memory release...
+19/09 17:05:19.0  NOTE   2692 Server.cpp[195]               Server stopped
+20/09 12:59:42.4  INFO   6672 Application.cpp[134]          MonaServer v2.723
+20/09 12:59:42.4  INFO   6672 Application.cpp[136]          Load configuration file MonaServer.ini
+20/09 12:59:42.4  NOTE   1492 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+20/09 12:59:42.4  NOTE   1492 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+20/09 12:59:42.4  NOTE   1492 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+20/09 12:59:42.4  NOTE   1492 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+20/09 12:59:42.4  NOTE   1492 Protocols.h[82]               WS server started on 0.0.0.0:80
+20/09 12:59:42.4  NOTE   1492 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+20/09 12:59:42.4  NOTE   1492 Protocols.h[82]               WSS server started on 0.0.0.0:443
+20/09 12:59:42.4  NOTE   1492 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+20/09 13:00:26.9  INFO   1492 Server.cpp[190]               Server memory release...
+20/09 13:00:26.9  NOTE   1492 Server.cpp[195]               Server stopped
+20/09 13:20:18.2  INFO   4048 Application.cpp[134]          MonaServer v2.723
+20/09 13:20:18.2  INFO   4048 Application.cpp[136]          Load configuration file MonaServer.ini
+20/09 13:20:18.2  NOTE   6640 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+20/09 13:20:18.2  NOTE   6640 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+20/09 13:20:18.2  NOTE   6640 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+20/09 13:20:18.2  NOTE   6640 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+20/09 13:20:18.2  NOTE   6640 Protocols.h[82]               WS server started on 0.0.0.0:80
+20/09 13:20:18.2  NOTE   6640 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+20/09 13:20:18.2  NOTE   6640 Protocols.h[82]               WSS server started on 0.0.0.0:443
+20/09 13:20:18.2  NOTE   6640 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+20/09 13:20:34.6  ERROR  6640 FlashMainStream.cpp[150]      Method client releaseStream not found in application live/
+20/09 13:20:34.6  ERROR  6640 FlashMainStream.cpp[150]      Method client FCPublish not found in application live/
+20/09 13:20:34.6  INFO   6640 Publication.cpp[128]          Publication  {append: false, duration: 0, segments: 0, server: mona} started
+20/09 13:20:36.3  INFO   6640 Server.cpp[119]               1 clients
+20/09 13:20:59.0  ERROR  6640 FlashMainStream.cpp[150]      Method client getStreamLength not found in application live/
+20/09 13:20:59.0  INFO   6640 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+20/09 13:21:00.4  INFO   6640 Server.cpp[119]               2 clients
+20/09 13:22:44.7  ERROR  6640 FlashMainStream.cpp[150]      Method client getStreamLength not found in application live/
+20/09 13:22:44.7  INFO   6640 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+20/09 13:22:46.6  INFO   6640 Server.cpp[119]               3 clients
+20/09 13:23:01.5  WARN   6640 TCPSession.cpp[32]            RTMP 3-192.168.104.92:55589, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+20/09 13:23:01.5  WARN   6640 TCPSession.cpp[32]            RTMP 3-192.168.104.92:55589, Connection aborted
+20/09 13:23:02.7  INFO   6640 Server.cpp[119]               2 clients
+20/09 13:24:18.7  ERROR  6640 FlashMainStream.cpp[150]      Method client getStreamLength not found in application live/
+20/09 13:24:18.7  INFO   6640 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+20/09 13:24:18.8  INFO   6640 Server.cpp[119]               3 clients
+20/09 13:24:19.2  WARN   6640 Subscription.cpp[30]          Non-monotonic audio time 223722, packet ignored
+20/09 13:24:19.2  WARN   6640 Subscription.cpp[30]          Non-monotonic audio time 223744, packet ignored
+20/09 13:25:16.5  WARN   6640 TCPSession.cpp[32]            RTMP 3-192.168.104.92:55624, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+20/09 13:25:16.5  WARN   6640 TCPSession.cpp[32]            RTMP 3-192.168.104.92:55624, Connection aborted
+20/09 13:25:16.9  INFO   6640 Server.cpp[119]               2 clients
+20/09 13:25:45.6  WARN   6640 Sessions.cpp[30]              sessions are deleting
+20/09 13:25:56.4  INFO   14252 Application.cpp[134]         MonaServer v2.723
+20/09 13:25:56.4  INFO   14252 Application.cpp[136]         Load configuration file MonaServer.ini
+20/09 13:25:56.4  NOTE   15580 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+20/09 13:25:56.4  NOTE   15580 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+20/09 13:25:56.4  NOTE   15580 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+20/09 13:25:56.4  NOTE   15580 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+20/09 13:25:56.4  NOTE   15580 Protocols.h[82]              WS server started on 0.0.0.0:80
+20/09 13:25:56.4  NOTE   15580 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+20/09 13:25:56.4  NOTE   15580 Protocols.h[82]              WSS server started on 0.0.0.0:443
+20/09 13:25:56.4  NOTE   15580 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+20/09 13:25:57.5  ERROR  15580 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+20/09 13:25:57.5  ERROR  15580 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+20/09 13:25:57.7  INFO   15580 Publication.cpp[128]         Publication  {append: false, duration: 0, segments: 0, server: mona} started
+20/09 13:25:57.9  ERROR  15580 FlashMainStream.cpp[150]     Method client FCUnpublish not found in application live/
+20/09 13:25:57.9  INFO   15580 Publication.cpp[205]         Publication  stopped
+20/09 13:26:03.2  ERROR  15580 FlashMainStream.cpp[150]     Method client getStreamLength not found in application live/
+20/09 13:26:03.2  INFO   15580 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+20/09 13:26:04.5  INFO   15580 Server.cpp[119]              1 clients
+20/09 13:26:26.6  INFO   15580 Server.cpp[119]              0 clients
+20/09 13:26:34.1  ERROR  15580 FlashMainStream.cpp[150]     Method client getStreamLength not found in application live/
+20/09 13:26:34.1  INFO   15580 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+20/09 13:26:34.6  INFO   15580 Server.cpp[119]              1 clients
+20/09 13:26:59.4  ERROR  15580 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+20/09 13:26:59.4  ERROR  15580 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+20/09 13:26:59.4  INFO   15580 Publication.cpp[128]         Publication  {append: false, duration: 0, segments: 0, server: mona} started
+20/09 13:27:00.7  INFO   15580 Server.cpp[119]              2 clients
+20/09 13:27:22.7  WARN   15580 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+20/09 13:27:42.5  WARN   15580 TCPSession.cpp[32]           RTMP 1-192.168.104.92:55651, Connection aborted
+20/09 13:27:42.8  INFO   15580 Server.cpp[119]              1 clients
+20/09 13:27:44.6  ERROR  15580 FlashMainStream.cpp[150]     Method client getStreamLength not found in application live/
+20/09 13:27:44.6  INFO   15580 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+20/09 13:27:44.8  INFO   15580 Server.cpp[119]              2 clients
+20/09 13:27:58.6  WARN   15580 TCPSession.cpp[32]           RTMP 1-192.168.104.92:55656, Connection aborted
+20/09 13:27:58.8  INFO   15580 Server.cpp[119]              1 clients
+20/09 13:28:02.1  WARN   15580 Sessions.cpp[30]             sessions are deleting
+11/10 11:59:05.8  INFO   17584 Application.cpp[134]         MonaServer v2.723
+11/10 11:59:05.8  INFO   17584 Application.cpp[136]         Load configuration file MonaServer.ini
+11/10 11:59:05.8  NOTE   11480 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+11/10 11:59:05.8  NOTE   11480 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+11/10 11:59:05.8  NOTE   11480 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+11/10 11:59:05.8  NOTE   11480 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+11/10 11:59:05.8  NOTE   11480 Protocols.h[82]              WS server started on 0.0.0.0:80
+11/10 11:59:05.8  NOTE   11480 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+11/10 11:59:05.8  NOTE   11480 Protocols.h[82]              WSS server started on 0.0.0.0:443
+11/10 11:59:05.8  NOTE   11480 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+11/10 12:00:51.8  INFO   11480 Server.cpp[190]              Server memory release...
+11/10 12:00:51.8  NOTE   11480 Server.cpp[195]              Server stopped
+11/10 12:01:04.6  INFO   1736 Application.cpp[134]          MonaServer v2.723
+11/10 12:01:04.6  INFO   1736 Application.cpp[136]          Load configuration file MonaServer.ini
+11/10 12:01:04.6  NOTE   9340 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+11/10 12:01:04.6  NOTE   9340 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+11/10 12:01:04.6  NOTE   9340 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+11/10 12:01:04.6  NOTE   9340 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+11/10 12:01:04.6  NOTE   9340 Protocols.h[82]               WS server started on 0.0.0.0:80
+11/10 12:01:04.6  NOTE   9340 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+11/10 12:01:04.6  NOTE   9340 Protocols.h[82]               WSS server started on 0.0.0.0:443
+11/10 12:01:04.6  NOTE   9340 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+11/10 12:03:16.4  ERROR  9340 FlashMainStream.cpp[150]      Method client releaseStream not found in application live/
+11/10 12:03:16.4  ERROR  9340 FlashMainStream.cpp[150]      Method client FCPublish not found in application live/
+11/10 12:03:16.4  INFO   9340 Publication.cpp[128]          Publication  {append: false, duration: 0, segments: 0, server: mona} started
+11/10 12:03:17.1  INFO   9340 Server.cpp[119]               1 clients
+11/10 12:03:46.7  ERROR  9340 FlashMainStream.cpp[150]      Method client getStreamLength not found in application live/
+11/10 12:03:46.7  INFO   9340 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+11/10 12:03:47.1  INFO   9340 Server.cpp[119]               2 clients
+11/10 12:05:33.1  WARN   9340 TCPSession.cpp[32]            RTMP 2-192.168.217.92:59353, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+11/10 12:05:33.1  WARN   9340 TCPSession.cpp[32]            RTMP 2-192.168.217.92:59353, Connection aborted
+11/10 12:05:33.4  INFO   9340 Server.cpp[119]               1 clients
+11/10 12:06:25.1  WARN   9340 TCPSession.cpp[32]            RTMP 1-192.168.217.75:36292, Connection aborted
+11/10 12:06:25.1  INFO   9340 Publication.cpp[205]          Publication  stopped
+11/10 12:06:25.6  INFO   9340 Server.cpp[119]               0 clients
+11/10 12:07:02.9  INFO   9340 Server.cpp[190]               Server memory release...
+11/10 12:07:02.9  NOTE   9340 Server.cpp[195]               Server stopped
+11/10 12:12:05.3  INFO   3956 Application.cpp[134]          MonaServer v2.723
+11/10 12:12:05.3  INFO   3956 Application.cpp[136]          Load configuration file MonaServer.ini
+11/10 12:12:05.3  NOTE   14524 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+11/10 12:12:05.3  NOTE   14524 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+11/10 12:12:05.3  NOTE   14524 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+11/10 12:12:05.3  NOTE   14524 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+11/10 12:12:05.3  NOTE   14524 Protocols.h[82]              WS server started on 0.0.0.0:80
+11/10 12:12:05.3  NOTE   14524 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+11/10 12:12:05.3  NOTE   14524 Protocols.h[82]              WSS server started on 0.0.0.0:443
+11/10 12:12:05.3  NOTE   14524 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+11/10 12:12:55.4  ERROR  14524 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+11/10 12:12:55.4  ERROR  14524 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+11/10 12:12:55.4  INFO   14524 Publication.cpp[128]         Publication  {append: false, duration: 0, segments: 0, server: mona} started
+11/10 12:12:55.6  INFO   14524 Server.cpp[119]              1 clients
+11/10 12:13:05.6  ERROR  14524 FlashMainStream.cpp[150]     Method client getStreamLength not found in application live/
+11/10 12:13:05.6  INFO   14524 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+11/10 12:13:05.7  INFO   14524 Server.cpp[119]              2 clients
+11/10 12:14:08.5  WARN   14524 TCPSession.cpp[32]           RTMP 2-192.168.217.92:59472, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+11/10 12:14:08.5  WARN   14524 TCPSession.cpp[32]           RTMP 2-192.168.217.92:59472, Connection aborted
+11/10 12:14:09.9  INFO   14524 Server.cpp[119]              1 clients
+11/10 12:15:00.5  ERROR  14524 FlashMainStream.cpp[150]     Method client getStreamLength not found in application live/
+11/10 12:15:00.5  INFO   14524 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+11/10 12:15:02.1  INFO   14524 Server.cpp[119]              2 clients
+11/10 12:15:48.1  WARN   14524 TCPSession.cpp[32]           RTMP 2-192.168.217.92:59504, Connection aborted
+11/10 12:15:48.2  INFO   14524 Server.cpp[119]              1 clients
+11/10 12:16:26.5  WARN   14524 TCPSession.cpp[32]           RTMP 1-192.168.217.75:36462, Connection aborted
+11/10 12:16:26.5  INFO   14524 Publication.cpp[205]         Publication  stopped
+11/10 12:16:28.3  INFO   14524 Server.cpp[119]              0 clients
+11/10 12:17:22.7  INFO   14524 Server.cpp[190]              Server memory release...
+11/10 12:17:22.7  NOTE   14524 Server.cpp[195]              Server stopped
+09/07 15:21:01.5  INFO   8036 Application.cpp[134]          MonaServer v2.723
+09/07 15:21:01.5  INFO   8036 Application.cpp[136]          Load configuration file MonaServer.ini
+09/07 15:21:01.5  NOTE   3564 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+09/07 15:21:01.5  NOTE   3564 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+09/07 15:21:01.5  NOTE   3564 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+09/07 15:21:01.5  NOTE   3564 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+09/07 15:21:01.5  NOTE   3564 Protocols.h[82]               WS server started on 0.0.0.0:80
+09/07 15:21:01.5  NOTE   3564 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+09/07 15:21:01.5  NOTE   3564 Protocols.h[82]               WSS server started on 0.0.0.0:443
+09/07 15:21:01.5  NOTE   3564 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+13/07 19:45:47.3  INFO   1696 Application.cpp[134]          MonaServer v2.723
+13/07 19:45:47.3  INFO   1696 Application.cpp[136]          Load configuration file MonaServer.ini
+13/07 19:45:47.3  NOTE   11008 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+13/07 19:45:47.3  NOTE   11008 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+13/07 19:45:47.3  NOTE   11008 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+13/07 19:45:47.3  NOTE   11008 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+13/07 19:45:47.3  NOTE   11008 Protocols.h[82]              WS server started on 0.0.0.0:80
+13/07 19:45:47.3  NOTE   11008 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+13/07 19:45:47.3  NOTE   11008 Protocols.h[82]              WSS server started on 0.0.0.0:443
+13/07 19:45:47.3  NOTE   11008 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+13/07 20:08:29.6  INFO   7500 Application.cpp[134]          MonaServer v2.723
+13/07 20:08:29.6  INFO   7500 Application.cpp[136]          Load configuration file MonaServer.ini
+13/07 20:08:29.6  NOTE   9496 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+13/07 20:08:29.6  NOTE   9496 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+13/07 20:08:29.6  NOTE   9496 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+13/07 20:08:29.6  NOTE   9496 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+13/07 20:08:29.6  NOTE   9496 Protocols.h[82]               WS server started on 0.0.0.0:80
+13/07 20:08:29.6  NOTE   9496 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+13/07 20:08:29.6  NOTE   9496 Protocols.h[82]               WSS server started on 0.0.0.0:443
+13/07 20:08:29.6  NOTE   9496 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+13/07 20:11:59.5  INFO   8152 Application.cpp[134]          MonaServer v2.723
+13/07 20:11:59.5  INFO   8152 Application.cpp[136]          Load configuration file MonaServer.ini
+13/07 20:11:59.5  NOTE   5056 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+13/07 20:11:59.5  NOTE   5056 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+13/07 20:11:59.5  NOTE   5056 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+13/07 20:11:59.5  NOTE   5056 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+13/07 20:11:59.5  NOTE   5056 Protocols.h[82]               WS server started on 0.0.0.0:80
+13/07 20:11:59.5  NOTE   5056 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+13/07 20:11:59.5  NOTE   5056 Protocols.h[82]               WSS server started on 0.0.0.0:443
+13/07 20:11:59.5  NOTE   5056 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+13/07 20:12:46.7  INFO   3348 Application.cpp[134]          MonaServer v2.723
+13/07 20:12:46.7  INFO   3348 Application.cpp[136]          Load configuration file MonaServer.ini
+13/07 20:12:46.7  NOTE   6716 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+13/07 20:12:46.7  NOTE   6716 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+13/07 20:12:46.7  NOTE   6716 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+13/07 20:12:46.7  NOTE   6716 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+13/07 20:12:46.7  NOTE   6716 Protocols.h[82]               WS server started on 0.0.0.0:80
+13/07 20:12:46.7  NOTE   6716 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+13/07 20:12:46.7  NOTE   6716 Protocols.h[82]               WSS server started on 0.0.0.0:443
+13/07 20:12:46.7  NOTE   6716 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+13/07 20:14:31.9  INFO   4732 Application.cpp[134]          MonaServer v2.723
+13/07 20:14:31.9  INFO   4732 Application.cpp[136]          Load configuration file MonaServer.ini
+13/07 20:14:32.0  NOTE   1392 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+13/07 20:14:32.0  NOTE   1392 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+13/07 20:14:32.0  NOTE   1392 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+13/07 20:14:32.0  NOTE   1392 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+13/07 20:14:32.0  NOTE   1392 Protocols.h[82]               WS server started on 0.0.0.0:80
+13/07 20:14:32.0  NOTE   1392 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+13/07 20:14:32.0  NOTE   1392 Protocols.h[82]               WSS server started on 0.0.0.0:443
+13/07 20:14:32.0  NOTE   1392 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+13/07 20:26:30.4  INFO   7356 Application.cpp[134]          MonaServer v2.723
+13/07 20:26:30.4  INFO   7356 Application.cpp[136]          Load configuration file MonaServer.ini
+13/07 20:26:30.4  NOTE   6148 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+13/07 20:26:30.4  NOTE   6148 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+13/07 20:26:30.4  NOTE   6148 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+13/07 20:26:30.4  NOTE   6148 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+13/07 20:26:30.4  NOTE   6148 Protocols.h[82]               WS server started on 0.0.0.0:80
+13/07 20:26:30.4  NOTE   6148 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+13/07 20:26:30.4  NOTE   6148 Protocols.h[82]               WSS server started on 0.0.0.0:443
+13/07 20:26:30.4  NOTE   6148 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+13/07 20:38:14.3  INFO   1912 Application.cpp[134]          MonaServer v2.723
+13/07 20:38:14.3  INFO   1912 Application.cpp[136]          Load configuration file MonaServer.ini
+13/07 20:38:14.3  NOTE   10536 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+13/07 20:38:14.3  NOTE   10536 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+13/07 20:38:14.3  NOTE   10536 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+13/07 20:38:14.3  NOTE   10536 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+13/07 20:38:14.3  NOTE   10536 Protocols.h[82]              WS server started on 0.0.0.0:80
+13/07 20:38:14.3  NOTE   10536 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+13/07 20:38:14.3  NOTE   10536 Protocols.h[82]              WSS server started on 0.0.0.0:443
+13/07 20:38:14.3  NOTE   10536 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+13/07 20:45:23.1  INFO   9660 Application.cpp[134]          MonaServer v2.723
+13/07 20:45:23.1  INFO   9660 Application.cpp[136]          Load configuration file MonaServer.ini
+13/07 20:45:23.1  NOTE   1268 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+13/07 20:45:23.1  NOTE   1268 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+13/07 20:45:23.1  NOTE   1268 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+13/07 20:45:23.1  NOTE   1268 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+13/07 20:45:23.1  NOTE   1268 Protocols.h[82]               WS server started on 0.0.0.0:80
+13/07 20:45:23.1  NOTE   1268 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+13/07 20:45:23.1  NOTE   1268 Protocols.h[82]               WSS server started on 0.0.0.0:443
+13/07 20:45:23.1  NOTE   1268 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+13/07 20:54:01.6  INFO   10856 Application.cpp[134]         MonaServer v2.723
+13/07 20:54:01.6  INFO   10856 Application.cpp[136]         Load configuration file MonaServer.ini
+13/07 20:54:01.6  NOTE   3820 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+13/07 20:54:01.6  NOTE   3820 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+13/07 20:54:01.6  NOTE   3820 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+13/07 20:54:01.6  NOTE   3820 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+13/07 20:54:01.6  NOTE   3820 Protocols.h[82]               WS server started on 0.0.0.0:80
+13/07 20:54:01.6  NOTE   3820 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+13/07 20:54:01.6  NOTE   3820 Protocols.h[82]               WSS server started on 0.0.0.0:443
+13/07 20:54:01.6  NOTE   3820 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 16:06:26.5  INFO   2468 Application.cpp[134]          MonaServer v2.723
+23/07 16:06:26.5  INFO   2468 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 16:06:26.5  NOTE   1220 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 16:06:26.5  NOTE   1220 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 16:06:26.5  NOTE   1220 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 16:06:26.5  NOTE   1220 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 16:06:26.5  NOTE   1220 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 16:06:26.5  NOTE   1220 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 16:06:26.5  NOTE   1220 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 16:06:26.5  NOTE   1220 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 16:10:01.1  INFO   15692 Application.cpp[134]         MonaServer v2.723
+23/07 16:10:01.1  INFO   15692 Application.cpp[136]         Load configuration file MonaServer.ini
+23/07 16:10:01.2  NOTE   4064 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 16:10:01.2  NOTE   4064 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 16:10:01.2  NOTE   4064 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 16:10:01.2  NOTE   4064 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 16:10:01.2  NOTE   4064 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 16:10:01.2  NOTE   4064 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 16:10:01.2  NOTE   4064 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 16:10:01.2  NOTE   4064 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 16:25:30.7  INFO   3148 Application.cpp[134]          MonaServer v2.723
+23/07 16:25:30.7  INFO   3148 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 16:25:30.7  NOTE   15008 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+23/07 16:25:30.7  NOTE   15008 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+23/07 16:25:30.7  NOTE   15008 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+23/07 16:25:30.7  NOTE   15008 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+23/07 16:25:30.7  NOTE   15008 Protocols.h[82]              WS server started on 0.0.0.0:80
+23/07 16:25:30.7  NOTE   15008 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+23/07 16:25:30.7  NOTE   15008 Protocols.h[82]              WSS server started on 0.0.0.0:443
+23/07 16:25:30.7  NOTE   15008 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+23/07 16:28:22.1  ERROR  15008 MonaServer.cpp[154]          Application /livedron doesn't exist
+23/07 16:28:23.3  ERROR  15008 MonaServer.cpp[154]          Application /livedron doesn't exist
+23/07 16:28:24.5  ERROR  15008 MonaServer.cpp[154]          Application /livedron doesn't exist
+23/07 16:28:25.6  ERROR  15008 MonaServer.cpp[154]          Application /livedron doesn't exist
+23/07 16:28:26.8  ERROR  15008 MonaServer.cpp[154]          Application /livedron doesn't exist
+23/07 16:28:27.9  ERROR  15008 MonaServer.cpp[154]          Application /livedron doesn't exist
+23/07 16:28:51.8  ERROR  15008 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+23/07 16:28:51.8  ERROR  15008 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+23/07 16:28:51.8  INFO   15008 Publication.cpp[128]         Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+23/07 16:28:53.4  INFO   15008 Server.cpp[119]              1 clients
+23/07 16:29:32.6  ERROR  15008 FlashMainStream.cpp[150]     Method client getStreamLength not found in application live/
+23/07 16:29:32.6  INFO   15008 FlashStream.cpp[126]         setBufferTime 3000ms on stream dron
+23/07 16:29:33.5  INFO   15008 Server.cpp[119]              2 clients
+23/07 16:29:57.8  WARN   15008 TCPSession.cpp[32]           RTMP 1-10.234.7.92:58523, Connection aborted
+23/07 16:29:59.5  INFO   15008 Server.cpp[119]              1 clients
+23/07 17:23:43.3  INFO   5416 Application.cpp[134]          MonaServer v2.723
+23/07 17:23:43.3  INFO   5416 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 17:23:43.3  NOTE   7244 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 17:23:43.3  NOTE   7244 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 17:23:43.3  NOTE   7244 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 17:23:43.3  NOTE   7244 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 17:23:43.3  NOTE   7244 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 17:23:43.3  NOTE   7244 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 17:23:43.3  NOTE   7244 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 17:23:43.3  NOTE   7244 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 17:24:33.7  INFO   7596 Application.cpp[134]          MonaServer v2.723
+23/07 17:24:33.7  INFO   7596 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 17:24:33.7  NOTE   10456 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+23/07 17:24:33.7  NOTE   10456 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+23/07 17:24:33.7  NOTE   10456 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+23/07 17:24:33.7  NOTE   10456 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+23/07 17:24:33.7  NOTE   10456 Protocols.h[82]              WS server started on 0.0.0.0:80
+23/07 17:24:33.7  NOTE   10456 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+23/07 17:24:33.7  NOTE   10456 Protocols.h[82]              WSS server started on 0.0.0.0:443
+23/07 17:24:33.7  NOTE   10456 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+23/07 17:26:39.3  INFO   16136 Application.cpp[134]         MonaServer v2.723
+23/07 17:26:39.3  INFO   16136 Application.cpp[136]         Load configuration file MonaServer.ini
+23/07 17:26:39.3  NOTE   13812 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+23/07 17:26:39.3  NOTE   13812 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+23/07 17:26:39.3  NOTE   13812 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+23/07 17:26:39.3  NOTE   13812 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+23/07 17:26:39.3  NOTE   13812 Protocols.h[82]              WS server started on 0.0.0.0:80
+23/07 17:26:39.3  NOTE   13812 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+23/07 17:26:39.3  NOTE   13812 Protocols.h[82]              WSS server started on 0.0.0.0:443
+23/07 17:26:39.3  NOTE   13812 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+23/07 17:27:22.5  INFO   13364 Application.cpp[134]         MonaServer v2.723
+23/07 17:27:22.5  INFO   13364 Application.cpp[136]         Load configuration file MonaServer.ini
+23/07 17:27:22.5  NOTE   7092 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 17:27:22.5  NOTE   7092 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 17:27:22.5  NOTE   7092 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 17:27:22.5  NOTE   7092 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 17:27:22.5  NOTE   7092 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 17:27:22.5  NOTE   7092 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 17:27:22.5  NOTE   7092 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 17:27:22.5  NOTE   7092 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 17:41:23.4  INFO   2172 Application.cpp[134]          MonaServer v2.723
+23/07 17:41:23.4  INFO   2172 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 17:41:23.4  NOTE   4212 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 17:41:23.4  NOTE   4212 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 17:41:23.4  NOTE   4212 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 17:41:23.4  NOTE   4212 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 17:41:23.4  NOTE   4212 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 17:41:23.4  NOTE   4212 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 17:41:23.4  NOTE   4212 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 17:41:23.4  NOTE   4212 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 17:42:48.4  ERROR  4212 FlashMainStream.cpp[150]      Method client releaseStream not found in application live/
+23/07 17:42:48.4  ERROR  4212 FlashMainStream.cpp[150]      Method client FCPublish not found in application live/
+23/07 17:42:48.4  INFO   4212 Publication.cpp[128]          Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+23/07 17:42:49.6  INFO   4212 Server.cpp[119]               1 clients
+23/07 17:43:10.3  ERROR  4212 FlashMainStream.cpp[150]      Method client getStreamLength not found in application live/
+23/07 17:43:10.3  INFO   4212 FlashStream.cpp[126]          setBufferTime 3000ms on stream dron
+23/07 17:43:11.7  INFO   4212 Server.cpp[119]               2 clients
+23/07 17:43:19.5  WARN   4212 TCPSession.cpp[32]            RTMP 2-10.234.7.92:49279, Connection reseted (address=10.234.7.92:49279, size=10, flags=0)
+23/07 17:43:19.5  WARN   4212 TCPSession.cpp[32]            RTMP 2-10.234.7.92:49279, Connection aborted
+23/07 17:43:19.7  INFO   4212 Server.cpp[119]               1 clients
+23/07 17:43:25.7  WARN   4212 TCPSession.cpp[32]            RTMP 1-10.234.7.212:52116, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+23/07 17:43:25.7  WARN   4212 TCPSession.cpp[32]            RTMP 1-10.234.7.212:52116, Connection aborted
+23/07 17:43:25.7  INFO   4212 Publication.cpp[205]          Publication dron stopped
+23/07 17:43:25.7  INFO   4212 Server.cpp[119]               0 clients
+23/07 17:48:47.2  INFO   7068 Application.cpp[134]          MonaServer v2.723
+23/07 17:48:47.2  INFO   7068 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 17:48:47.2  NOTE   8368 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 17:48:47.2  NOTE   8368 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 17:48:47.2  NOTE   8368 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 17:48:47.2  NOTE   8368 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 17:48:47.2  NOTE   8368 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 17:48:47.2  NOTE   8368 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 17:48:47.2  NOTE   8368 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 17:48:47.2  NOTE   8368 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 17:50:27.2  INFO   7352 Application.cpp[134]          MonaServer v2.723
+23/07 17:50:27.2  INFO   7352 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 17:50:27.2  NOTE   9592 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 17:50:27.2  NOTE   9592 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 17:50:27.2  NOTE   9592 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 17:50:27.2  NOTE   9592 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 17:50:27.2  NOTE   9592 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 17:50:27.2  NOTE   9592 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 17:50:27.2  NOTE   9592 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 17:50:27.2  NOTE   9592 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 17:52:05.0  INFO   8104 Application.cpp[134]          MonaServer v2.723
+23/07 17:52:05.0  INFO   8104 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 17:52:05.0  NOTE   9300 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 17:52:05.0  NOTE   9300 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 17:52:05.0  NOTE   9300 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 17:52:05.0  NOTE   9300 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 17:52:05.0  NOTE   9300 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 17:52:05.0  NOTE   9300 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 17:52:05.0  NOTE   9300 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 17:52:05.0  NOTE   9300 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 18:04:22.1  INFO   2892 Application.cpp[134]          MonaServer v2.723
+23/07 18:04:22.1  INFO   2892 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 18:04:22.1  NOTE   5096 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 18:04:22.1  NOTE   5096 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 18:04:22.1  NOTE   5096 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 18:04:22.1  NOTE   5096 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 18:04:22.1  NOTE   5096 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 18:04:22.1  NOTE   5096 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 18:04:22.1  NOTE   5096 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 18:04:22.1  NOTE   5096 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 18:18:21.3  INFO   9128 Application.cpp[134]          MonaServer v2.723
+23/07 18:18:21.3  INFO   9128 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 18:18:21.3  NOTE   200 Protocols.h[82]                RTMFP server started on 0.0.0.0:1935
+23/07 18:18:21.3  NOTE   200 Protocols.h[82]                RTMP server started on 0.0.0.0:1935
+23/07 18:18:21.3  NOTE   200 Protocols.h[82]                RTMPS server started on 0.0.0.0:8443
+23/07 18:18:21.3  NOTE   200 Protocols.h[82]                HTTP server started on 0.0.0.0:80
+23/07 18:18:21.3  NOTE   200 Protocols.h[82]                WS server started on 0.0.0.0:80
+23/07 18:18:21.3  NOTE   200 Protocols.h[82]                HTTPS server started on 0.0.0.0:443
+23/07 18:18:21.3  NOTE   200 Protocols.h[82]                WSS server started on 0.0.0.0:443
+23/07 18:18:21.3  NOTE   200 Protocols.h[82]                SRT server started on 0.0.0.0:9710
+23/07 18:19:17.8  ERROR  200 FlashMainStream.cpp[150]       Method client releaseStream not found in application live/
+23/07 18:19:17.8  ERROR  200 FlashMainStream.cpp[150]       Method client FCPublish not found in application live/
+23/07 18:19:17.8  INFO   200 Publication.cpp[128]           Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+23/07 18:19:19.5  INFO   200 Server.cpp[119]                1 clients
+23/07 18:19:38.9  ERROR  200 FlashMainStream.cpp[150]       Method client getStreamLength not found in application live/
+23/07 18:19:38.9  INFO   200 FlashStream.cpp[126]           setBufferTime 3000ms on stream dron
+23/07 18:19:39.6  INFO   200 Server.cpp[119]                2 clients
+23/07 18:20:06.9  WARN   200 TCPSession.cpp[32]             RTMP 2-10.234.7.92:59682, Connection aborted
+23/07 18:20:07.7  INFO   200 Server.cpp[119]                1 clients
+23/07 18:20:25.4  WARN   200 TCPSession.cpp[32]             RTMP 1-10.234.7.212:50426, Connection aborted
+23/07 18:20:25.4  INFO   200 Publication.cpp[205]           Publication dron stopped
+23/07 18:20:25.7  INFO   200 Server.cpp[119]                0 clients
+23/07 18:50:13.1  INFO   10460 Application.cpp[134]         MonaServer v2.723
+23/07 18:50:13.1  INFO   10460 Application.cpp[136]         Load configuration file MonaServer.ini
+23/07 18:50:13.1  NOTE   13980 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+23/07 18:50:13.1  NOTE   13980 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+23/07 18:50:13.1  NOTE   13980 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+23/07 18:50:13.1  NOTE   13980 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+23/07 18:50:13.1  NOTE   13980 Protocols.h[82]              WS server started on 0.0.0.0:80
+23/07 18:50:13.1  NOTE   13980 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+23/07 18:50:13.1  NOTE   13980 Protocols.h[82]              WSS server started on 0.0.0.0:443
+23/07 18:50:13.1  NOTE   13980 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+23/07 18:51:51.5  INFO   13980 Server.cpp[119]              1 clients
+23/07 18:51:51.5  ERROR  13980 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+23/07 18:51:51.5  ERROR  13980 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+23/07 18:51:51.5  ERROR  13980 RTMP\RTMPSession.cpp[50]     RTMP 1-10.234.7.212:48416 indicates a non-existent 4294967295 FlashStream
+23/07 18:51:52.5  ERROR  13980 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+23/07 18:51:52.6  ERROR  13980 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+23/07 18:51:52.6  INFO   13980 Publication.cpp[128]         Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+23/07 18:51:58.7  ERROR  13980 FlashMainStream.cpp[150]     Method client getStreamLength not found in application live/
+23/07 18:51:58.7  INFO   13980 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+23/07 18:51:59.5  INFO   13980 Server.cpp[119]              2 clients
+23/07 18:52:11.4  ERROR  13980 FlashMainStream.cpp[150]     Method client getStreamLength not found in application live/
+23/07 18:52:11.4  INFO   13980 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+23/07 18:52:11.5  INFO   13980 Server.cpp[119]              3 clients
+23/07 18:52:35.9  ERROR  13980 FlashMainStream.cpp[150]     Method client getStreamLength not found in application live/
+23/07 18:52:35.9  INFO   13980 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+23/07 18:52:37.6  INFO   13980 Server.cpp[119]              4 clients
+23/07 18:54:21.6  INFO   8260 Application.cpp[134]          MonaServer v2.723
+23/07 18:54:21.6  INFO   8260 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 18:54:21.6  NOTE   2096 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 18:54:21.6  NOTE   2096 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 18:54:21.6  NOTE   2096 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 18:54:21.6  NOTE   2096 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 18:54:21.6  NOTE   2096 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 18:54:21.6  NOTE   2096 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 18:54:21.6  NOTE   2096 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 18:54:21.6  NOTE   2096 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 18:54:34.6  ERROR  2096 FlashMainStream.cpp[150]      Method client releaseStream not found in application live/
+23/07 18:54:34.6  ERROR  2096 FlashMainStream.cpp[150]      Method client FCPublish not found in application live/
+23/07 18:54:34.6  INFO   2096 Publication.cpp[128]          Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+23/07 18:54:35.7  INFO   2096 Server.cpp[119]               1 clients
+23/07 18:54:40.2  ERROR  2096 FlashMainStream.cpp[150]      Method client getStreamLength not found in application live/
+23/07 18:54:40.2  INFO   2096 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+23/07 18:54:41.7  INFO   2096 Server.cpp[119]               2 clients
+23/07 19:00:09.9  INFO   16296 Application.cpp[134]         MonaServer v2.723
+23/07 19:00:09.9  INFO   16296 Application.cpp[136]         Load configuration file MonaServer.ini
+23/07 19:00:09.9  NOTE   12112 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+23/07 19:00:09.9  NOTE   12112 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+23/07 19:00:09.9  NOTE   12112 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+23/07 19:00:09.9  NOTE   12112 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+23/07 19:00:09.9  NOTE   12112 Protocols.h[82]              WS server started on 0.0.0.0:80
+23/07 19:00:09.9  NOTE   12112 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+23/07 19:00:09.9  NOTE   12112 Protocols.h[82]              WSS server started on 0.0.0.0:443
+23/07 19:00:09.9  NOTE   12112 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+23/07 19:00:23.8  ERROR  12112 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+23/07 19:00:23.8  ERROR  12112 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+23/07 19:00:23.8  INFO   12112 Publication.cpp[128]         Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+23/07 19:00:24.0  INFO   12112 Server.cpp[119]              1 clients
+23/07 19:00:28.8  ERROR  12112 FlashMainStream.cpp[150]     Method client FCSubscribe not found in application live/
+23/07 19:00:28.8  INFO   12112 FlashStream.cpp[126]         setBufferTime 3000ms on stream dron
+23/07 19:00:30.0  INFO   12112 Server.cpp[119]              2 clients
+23/07 19:01:13.0  WARN   12112 TCPSession.cpp[32]           RTMP 2-10.234.7.92:53456, Connection aborted
+23/07 19:01:14.1  INFO   12112 Server.cpp[119]              1 clients
+23/07 19:01:16.8  ERROR  12112 FlashMainStream.cpp[150]     Method client FCSubscribe not found in application live/
+23/07 19:01:16.8  INFO   12112 FlashStream.cpp[126]         setBufferTime 3000ms on stream dron
+23/07 19:01:18.1  INFO   12112 Server.cpp[119]              2 clients
+23/07 19:01:30.4  WARN   12112 TCPSession.cpp[32]           RTMP 2-10.234.7.92:59462, Connection aborted
+23/07 19:50:20.0  INFO   9808 Application.cpp[134]          MonaServer v2.723
+23/07 19:50:20.0  INFO   9808 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 19:50:20.1  NOTE   8532 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 19:50:20.1  NOTE   8532 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 19:50:20.1  NOTE   8532 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 19:50:20.1  NOTE   8532 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 19:50:20.1  NOTE   8532 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 19:50:20.1  NOTE   8532 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 19:50:20.1  NOTE   8532 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 19:50:20.1  NOTE   8532 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 19:57:52.8  INFO   10320 Application.cpp[134]         MonaServer v2.723
+23/07 19:57:52.8  INFO   10320 Application.cpp[136]         Load configuration file MonaServer.ini
+23/07 19:57:52.8  NOTE   13112 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+23/07 19:57:52.8  NOTE   13112 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+23/07 19:57:52.8  NOTE   13112 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+23/07 19:57:52.8  NOTE   13112 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+23/07 19:57:52.8  NOTE   13112 Protocols.h[82]              WS server started on 0.0.0.0:80
+23/07 19:57:52.8  NOTE   13112 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+23/07 19:57:52.8  NOTE   13112 Protocols.h[82]              WSS server started on 0.0.0.0:443
+23/07 19:57:52.8  NOTE   13112 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+23/07 20:29:16.6  INFO   15336 Application.cpp[134]         MonaServer v2.723
+23/07 20:29:16.6  INFO   15336 Application.cpp[136]         Load configuration file MonaServer.ini
+23/07 20:29:16.7  NOTE   7784 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 20:29:16.7  NOTE   7784 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 20:29:16.7  NOTE   7784 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 20:29:16.7  NOTE   7784 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 20:29:16.7  NOTE   7784 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 20:29:16.7  NOTE   7784 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 20:29:16.7  NOTE   7784 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 20:29:16.7  NOTE   7784 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 20:30:23.5  INFO   5588 Application.cpp[134]          MonaServer v2.723
+23/07 20:30:23.5  INFO   5588 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 20:30:23.5  NOTE   9020 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 20:30:23.5  NOTE   9020 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 20:30:23.5  NOTE   9020 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 20:30:23.5  NOTE   9020 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 20:30:23.5  NOTE   9020 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 20:30:23.5  NOTE   9020 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 20:30:23.5  NOTE   9020 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 20:30:23.5  NOTE   9020 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 20:38:33.3  INFO   4240 Application.cpp[134]          MonaServer v2.723
+23/07 20:38:33.3  INFO   4240 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 20:38:33.3  NOTE   4480 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 20:38:33.3  NOTE   4480 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 20:38:33.3  NOTE   4480 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 20:38:33.3  NOTE   4480 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 20:38:33.3  NOTE   4480 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 20:38:33.3  NOTE   4480 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 20:38:33.3  NOTE   4480 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 20:38:33.3  NOTE   4480 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+23/07 20:43:43.5  ERROR  4480 FlashMainStream.cpp[150]      Method client releaseStream not found in application live/
+23/07 20:43:43.5  ERROR  4480 FlashMainStream.cpp[150]      Method client FCPublish not found in application live/
+23/07 20:43:43.5  INFO   4480 Publication.cpp[128]          Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+23/07 20:43:43.9  INFO   4480 Server.cpp[119]               1 clients
+23/07 20:43:53.7  ERROR  4480 FlashMainStream.cpp[150]      Method client FCSubscribe not found in application live/
+23/07 20:43:53.7  INFO   4480 FlashStream.cpp[126]          setBufferTime 3000ms on stream dron
+23/07 20:43:53.9  INFO   4480 Server.cpp[119]               2 clients
+23/07 20:44:26.5  WARN   4480 TCPSession.cpp[32]            RTMP 2-10.234.7.92:56443, Connection aborted
+23/07 20:44:28.0  INFO   4480 Server.cpp[119]               1 clients
+23/07 20:44:31.3  ERROR  4480 FlashMainStream.cpp[150]      Method client FCSubscribe not found in application live/
+23/07 20:44:31.3  INFO   4480 FlashStream.cpp[126]          setBufferTime 3000ms on stream dron
+23/07 20:44:32.0  INFO   4480 Server.cpp[119]               2 clients
+23/07 20:44:45.0  WARN   4480 TCPSession.cpp[32]            RTMP 2-10.234.7.92:56446, Connection aborted
+23/07 20:44:46.1  INFO   4480 Server.cpp[119]               1 clients
+23/07 21:00:05.4  INFO   7172 Application.cpp[134]          MonaServer v2.723
+23/07 21:00:05.4  INFO   7172 Application.cpp[136]          Load configuration file MonaServer.ini
+23/07 21:00:05.4  NOTE   5100 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/07 21:00:05.4  NOTE   5100 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/07 21:00:05.4  NOTE   5100 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/07 21:00:05.4  NOTE   5100 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/07 21:00:05.4  NOTE   5100 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/07 21:00:05.4  NOTE   5100 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/07 21:00:05.4  NOTE   5100 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/07 21:00:05.4  NOTE   5100 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+26/07 20:35:18.3  INFO   6180 Application.cpp[134]          MonaServer v2.723
+26/07 20:35:18.3  INFO   6180 Application.cpp[136]          Load configuration file MonaServer.ini
+26/07 20:35:18.3  NOTE   14568 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+26/07 20:35:18.3  NOTE   14568 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+26/07 20:35:18.3  NOTE   14568 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+26/07 20:35:18.3  NOTE   14568 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+26/07 20:35:18.3  NOTE   14568 Protocols.h[82]              WS server started on 0.0.0.0:80
+26/07 20:35:18.3  NOTE   14568 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+26/07 20:35:18.3  NOTE   14568 Protocols.h[82]              WSS server started on 0.0.0.0:443
+26/07 20:35:18.3  NOTE   14568 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+26/07 20:36:44.5  ERROR  14568 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+26/07 20:36:44.5  ERROR  14568 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+26/07 20:36:44.5  INFO   14568 Publication.cpp[128]         Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+26/07 20:36:46.0  INFO   14568 Server.cpp[119]              1 clients
+26/07 20:36:51.0  ERROR  14568 FlashMainStream.cpp[150]     Method client FCSubscribe not found in application live/
+26/07 20:36:51.0  INFO   14568 FlashStream.cpp[126]         setBufferTime 3000ms on stream dron
+26/07 20:36:52.0  INFO   14568 Server.cpp[119]              2 clients
+26/07 20:37:08.0  WARN   14568 TCPSession.cpp[32]           RTMP 2-10.234.7.92:60315, Connection aborted
+26/07 20:37:08.1  INFO   14568 Server.cpp[119]              1 clients
+26/07 20:37:18.9  ERROR  14568 FlashMainStream.cpp[150]     Method client FCUnpublish not found in application live/
+26/07 20:37:18.9  INFO   14568 Publication.cpp[205]         Publication dron stopped
+26/07 20:37:18.9  WARN   14568 TCPSession.cpp[32]           RTMP 1-10.234.7.212:48168, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+26/07 20:37:18.9  WARN   14568 TCPSession.cpp[32]           RTMP 1-10.234.7.212:48168, Connection aborted
+26/07 20:37:20.1  INFO   14568 Server.cpp[119]              0 clients
+26/07 20:37:35.7  ERROR  14568 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+26/07 20:37:35.7  ERROR  14568 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+26/07 20:37:35.7  INFO   14568 Publication.cpp[128]         Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+26/07 20:37:36.2  INFO   14568 Server.cpp[119]              1 clients
+26/07 20:37:46.5  ERROR  14568 FlashMainStream.cpp[150]     Method client FCSubscribe not found in application live/
+26/07 20:37:46.5  INFO   14568 FlashStream.cpp[126]         setBufferTime 3000ms on stream dron
+26/07 20:37:48.2  INFO   14568 Server.cpp[119]              2 clients
+26/07 20:38:31.6  WARN   14568 TCPSession.cpp[32]           RTMP 1-10.234.7.92:60326, Connection aborted
+26/07 20:38:32.3  INFO   14568 Server.cpp[119]              1 clients
+26/07 20:38:39.3  WARN   14568 TCPSession.cpp[32]           RTMP 2-10.234.7.212:42018, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+26/07 20:38:39.3  WARN   14568 TCPSession.cpp[32]           RTMP 2-10.234.7.212:42018, Connection aborted
+26/07 20:38:39.3  INFO   14568 Publication.cpp[205]         Publication dron stopped
+26/07 20:38:40.3  INFO   14568 Server.cpp[119]              0 clients
+26/07 20:39:06.0  ERROR  14568 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+26/07 20:39:06.0  ERROR  14568 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+26/07 20:39:06.0  INFO   14568 Publication.cpp[128]         Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+26/07 20:39:06.4  INFO   14568 Server.cpp[119]              1 clients
+26/07 20:39:11.0  ERROR  14568 FlashMainStream.cpp[150]     Method client FCSubscribe not found in application live/
+26/07 20:39:11.0  INFO   14568 FlashStream.cpp[126]         setBufferTime 3000ms on stream dron
+26/07 20:39:12.4  INFO   14568 Server.cpp[119]              2 clients
+26/07 20:40:02.3  WARN   14568 TCPSession.cpp[32]           RTMP 1-10.234.7.212:40992, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+26/07 20:40:02.3  WARN   14568 TCPSession.cpp[32]           RTMP 1-10.234.7.212:40992, Connection aborted
+26/07 20:40:02.3  INFO   14568 Publication.cpp[205]         Publication dron stopped
+26/07 20:40:02.5  INFO   14568 Server.cpp[119]              1 clients
+26/07 20:40:08.5  INFO   14568 Server.cpp[119]              0 clients
+26/07 20:42:23.3  INFO   7256 Application.cpp[134]          MonaServer v2.723
+26/07 20:42:23.3  INFO   7256 Application.cpp[136]          Load configuration file MonaServer.ini
+26/07 20:42:23.3  NOTE   14340 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+26/07 20:42:23.3  NOTE   14340 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+26/07 20:42:23.3  NOTE   14340 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+26/07 20:42:23.3  NOTE   14340 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+26/07 20:42:23.3  NOTE   14340 Protocols.h[82]              WS server started on 0.0.0.0:80
+26/07 20:42:23.3  NOTE   14340 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+26/07 20:42:23.3  NOTE   14340 Protocols.h[82]              WSS server started on 0.0.0.0:443
+26/07 20:42:23.3  NOTE   14340 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+26/07 20:42:30.3  ERROR  14340 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+26/07 20:42:30.3  ERROR  14340 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+26/07 20:42:30.4  INFO   14340 Publication.cpp[128]         Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+26/07 20:42:31.3  INFO   14340 Server.cpp[119]              1 clients
+26/07 20:42:36.5  ERROR  14340 FlashMainStream.cpp[150]     Method client FCSubscribe not found in application live/
+26/07 20:42:36.5  INFO   14340 FlashStream.cpp[126]         setBufferTime 3000ms on stream dron
+26/07 20:42:37.3  INFO   14340 Server.cpp[119]              2 clients
+26/07 20:42:51.7  WARN   14340 TCPSession.cpp[32]           RTMP 2-10.234.7.92:50174, Connection aborted
+26/07 20:42:53.4  INFO   14340 Server.cpp[119]              1 clients
+26/07 20:42:56.9  WARN   14340 TCPSession.cpp[32]           RTMP 1-10.234.7.212:52834, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+26/07 20:42:56.9  WARN   14340 TCPSession.cpp[32]           RTMP 1-10.234.7.212:52834, Connection aborted
+26/07 20:42:56.9  INFO   14340 Publication.cpp[205]         Publication dron stopped
+26/07 20:42:57.4  INFO   14340 Server.cpp[119]              0 clients
+06/08 20:03:20.6  INFO   15368 Application.cpp[134]         MonaServer v2.723
+06/08 20:03:20.6  INFO   15368 Application.cpp[136]         Load configuration file MonaServer.ini
+06/08 20:03:20.7  NOTE   11960 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+06/08 20:03:20.7  NOTE   11960 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+06/08 20:03:20.7  NOTE   11960 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+06/08 20:03:20.7  NOTE   11960 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+06/08 20:03:20.7  NOTE   11960 Protocols.h[82]              WS server started on 0.0.0.0:80
+06/08 20:03:20.7  NOTE   11960 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+06/08 20:03:20.7  NOTE   11960 Protocols.h[82]              WSS server started on 0.0.0.0:443
+06/08 20:03:20.7  NOTE   11960 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+19/08 12:25:10.3  INFO   5932 Application.cpp[134]          MonaServer v2.723
+19/08 12:25:10.3  INFO   5932 Application.cpp[136]          Load configuration file MonaServer.ini
+19/08 12:25:10.3  NOTE   2448 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+19/08 12:25:10.3  NOTE   2448 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+19/08 12:25:10.3  NOTE   2448 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+19/08 12:25:10.3  NOTE   2448 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+19/08 12:25:10.3  NOTE   2448 Protocols.h[82]               WS server started on 0.0.0.0:80
+19/08 12:25:10.3  NOTE   2448 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+19/08 12:25:10.3  NOTE   2448 Protocols.h[82]               WSS server started on 0.0.0.0:443
+19/08 12:25:10.3  NOTE   2448 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+19/08 12:27:45.6  ERROR  2448 FlashMainStream.cpp[150]      Method client releaseStream not found in application live/
+19/08 12:27:45.6  ERROR  2448 FlashMainStream.cpp[150]      Method client FCPublish not found in application live/
+19/08 12:27:45.6  INFO   2448 Publication.cpp[128]          Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+19/08 12:27:47.0  INFO   2448 Server.cpp[119]               1 clients
+19/08 12:27:52.7  ERROR  2448 FlashMainStream.cpp[150]      Method client FCSubscribe not found in application live/
+19/08 12:27:52.7  INFO   2448 FlashStream.cpp[126]          setBufferTime 3000ms on stream dron
+19/08 12:27:53.0  INFO   2448 Server.cpp[119]               2 clients
+19/08 12:28:03.2  WARN   2448 TCPSession.cpp[32]            RTMP 2-10.219.142.92:49816, Connection aborted
+19/08 12:28:05.1  INFO   2448 Server.cpp[119]               1 clients
+19/08 12:28:11.1  WARN   2448 TCPSession.cpp[32]            RTMP 1-10.219.142.212:49242, Connection aborted
+19/08 12:28:11.1  INFO   2448 Publication.cpp[205]          Publication dron stopped
+19/08 12:28:13.1  INFO   2448 Server.cpp[119]               0 clients
+19/08 12:29:29.3  ERROR  2448 FlashMainStream.cpp[150]      Method client releaseStream not found in application live/
+19/08 12:29:29.3  ERROR  2448 FlashMainStream.cpp[150]      Method client FCPublish not found in application live/
+19/08 12:29:29.3  INFO   2448 Publication.cpp[128]          Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+19/08 12:29:29.4  INFO   2448 Server.cpp[119]               1 clients
+19/08 12:30:25.2  ERROR  2448 FlashMainStream.cpp[150]      Method client getStreamLength not found in application live/
+19/08 12:30:25.2  INFO   2448 FlashStream.cpp[126]          setBufferTime 3000ms on stream dron
+19/08 12:30:25.5  INFO   2448 Server.cpp[119]               2 clients
+19/08 12:31:35.8  WARN   2448 TCPSession.cpp[32]            RTMP 1-10.219.142.92:49822, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+19/08 12:31:35.8  WARN   2448 TCPSession.cpp[32]            RTMP 1-10.219.142.92:49822, Connection aborted
+19/08 12:31:37.6  INFO   2448 Server.cpp[119]               1 clients
+19/08 12:31:44.9  ERROR  2448 FlashMainStream.cpp[150]      Method client getStreamLength not found in application live/
+19/08 12:31:44.9  INFO   2448 FlashStream.cpp[126]          setBufferTime 3000ms on stream dron
+19/08 12:31:45.2  WARN   2448 Subscription.cpp[30]          Non-monotonic audio time 135625, packet ignored
+19/08 12:31:45.6  INFO   2448 Server.cpp[119]               2 clients
+19/08 12:32:04.2  WARN   2448 TCPSession.cpp[32]            RTMP 1-10.219.142.92:57645, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+19/08 12:32:04.2  WARN   2448 TCPSession.cpp[32]            RTMP 1-10.219.142.92:57645, Connection aborted
+19/08 12:32:05.6  INFO   2448 Server.cpp[119]               1 clients
+19/08 12:32:18.5  ERROR  2448 FlashMainStream.cpp[150]      Method client getStreamLength not found in application live/
+19/08 12:32:18.5  INFO   2448 FlashStream.cpp[126]          setBufferTime 3000ms on stream dron
+19/08 12:32:19.7  INFO   2448 Server.cpp[119]               2 clients
+19/08 12:32:45.9  WARN   2448 TCPSession.cpp[32]            RTMP 1-10.219.142.92:57646, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+19/08 12:32:45.9  WARN   2448 TCPSession.cpp[32]            RTMP 1-10.219.142.92:57646, Connection aborted
+19/08 12:32:47.7  INFO   2448 Server.cpp[119]               1 clients
+19/08 12:33:54.9  ERROR  2448 FlashMainStream.cpp[150]      Method client getStreamLength not found in application live/
+19/08 12:33:54.9  INFO   2448 FlashStream.cpp[126]          setBufferTime 3000ms on stream dron
+19/08 12:33:55.8  INFO   2448 Server.cpp[119]               2 clients
+19/08 12:34:12.6  WARN   2448 TCPSession.cpp[32]            RTMP 1-10.219.142.92:58676, Connection aborted
+19/08 12:34:12.6  WARN   2448 TCPSession.cpp[32]            RTMP 2-10.219.142.212:36474, Connection aborted
+19/08 12:34:12.6  INFO   2448 Publication.cpp[205]          Publication dron stopped
+19/08 12:34:13.9  INFO   2448 Server.cpp[119]               0 clients
+19/08 12:34:24.2  ERROR  2448 FlashMainStream.cpp[150]      Method client releaseStream not found in application live/
+19/08 12:34:24.2  ERROR  2448 FlashMainStream.cpp[150]      Method client FCPublish not found in application live/
+19/08 12:34:24.2  FATAL  2448 Server.cpp[133]               Server, A LUAPublication 000001C29C5B9150 was not released properly, c:\travail\monaworkspace\monaserver2\monaserver\sources\Script.h[402]
+19/08 12:34:24.2  WARN   2448 Sessions.cpp[30]              sessions are deleting
+20/08 11:24:22.6  INFO   7760 Application.cpp[134]          MonaServer v2.723
+20/08 11:24:22.6  INFO   7760 Application.cpp[136]          Load configuration file MonaServer.ini
+20/08 11:24:22.6  NOTE   2116 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+20/08 11:24:22.6  NOTE   2116 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+20/08 11:24:22.6  NOTE   2116 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+20/08 11:24:22.6  NOTE   2116 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+20/08 11:24:22.6  NOTE   2116 Protocols.h[82]               WS server started on 0.0.0.0:80
+20/08 11:24:22.6  NOTE   2116 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+20/08 11:24:22.6  NOTE   2116 Protocols.h[82]               WSS server started on 0.0.0.0:443
+20/08 11:24:22.6  NOTE   2116 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+20/08 11:26:17.3  ERROR  2116 FlashMainStream.cpp[150]      Method client releaseStream not found in application live/
+20/08 11:26:17.3  ERROR  2116 FlashMainStream.cpp[150]      Method client FCPublish not found in application live/
+20/08 11:26:17.3  INFO   2116 Publication.cpp[128]          Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+20/08 11:26:19.0  INFO   2116 Server.cpp[119]               1 clients
+20/08 11:26:29.1  ERROR  2116 FlashMainStream.cpp[150]      Method client FCSubscribe not found in application live/
+20/08 11:26:29.1  INFO   2116 FlashStream.cpp[126]          setBufferTime 3000ms on stream dron
+20/08 11:26:31.1  INFO   2116 Server.cpp[119]               2 clients
+20/08 11:30:45.5  WARN   2116 TCPSession.cpp[32]            RTMP 1-10.219.142.212:44538, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+20/08 11:30:45.5  WARN   2116 TCPSession.cpp[32]            RTMP 1-10.219.142.212:44538, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+20/08 11:30:45.5  WARN   2116 TCPSession.cpp[32]            RTMP 1-10.219.142.212:44538, Connection aborted
+20/08 11:30:45.5  INFO   2116 Publication.cpp[205]          Publication dron stopped
+20/08 11:30:45.6  INFO   2116 Server.cpp[119]               1 clients
+20/08 11:30:53.6  INFO   2116 Server.cpp[119]               0 clients
+31/08 21:59:27.8  INFO   5632 Application.cpp[134]          MonaServer v2.723
+31/08 21:59:27.8  INFO   5632 Application.cpp[136]          Load configuration file MonaServer.ini
+31/08 21:59:27.9  NOTE   11664 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+31/08 21:59:27.9  NOTE   11664 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+31/08 21:59:27.9  NOTE   11664 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+31/08 21:59:27.9  NOTE   11664 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+31/08 21:59:27.9  NOTE   11664 Protocols.h[82]              WS server started on 0.0.0.0:80
+31/08 21:59:27.9  NOTE   11664 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+31/08 21:59:27.9  NOTE   11664 Protocols.h[82]              WSS server started on 0.0.0.0:443
+31/08 21:59:27.9  NOTE   11664 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+01/09 16:51:20.3  INFO   3940 Application.cpp[134]          MonaServer v2.723
+01/09 16:51:20.3  INFO   3940 Application.cpp[136]          Load configuration file MonaServer.ini
+01/09 16:51:20.3  NOTE   13812 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+01/09 16:51:20.3  NOTE   13812 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+01/09 16:51:20.3  NOTE   13812 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+01/09 16:51:20.3  NOTE   13812 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+01/09 16:51:20.3  NOTE   13812 Protocols.h[82]              WS server started on 0.0.0.0:80
+01/09 16:51:20.3  NOTE   13812 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+01/09 16:51:20.3  NOTE   13812 Protocols.h[82]              WSS server started on 0.0.0.0:443
+01/09 16:51:20.3  NOTE   13812 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+01/09 17:08:29.0  ERROR  13812 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+01/09 17:08:29.0  ERROR  13812 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+01/09 17:08:29.0  INFO   13812 Publication.cpp[128]         Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+01/09 17:08:30.2  INFO   13812 Server.cpp[119]              1 clients
+01/09 17:11:04.3  WARN   13812 TCPSession.cpp[32]           RTMP 1-10.219.142.212:58432, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+01/09 17:11:04.3  WARN   13812 TCPSession.cpp[32]           RTMP 1-10.219.142.212:58432, Connection aborted
+01/09 17:11:04.3  INFO   13812 Publication.cpp[205]         Publication dron stopped
+01/09 17:11:04.6  INFO   13812 Server.cpp[119]              0 clients
+01/09 17:12:54.5  ERROR  13812 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+01/09 17:12:54.5  ERROR  13812 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+01/09 17:12:54.6  INFO   13812 Publication.cpp[128]         Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+01/09 17:12:55.0  INFO   13812 Server.cpp[119]              1 clients
+01/09 17:13:02.2  ERROR  13812 FlashMainStream.cpp[150]     Method client FCSubscribe not found in application live/
+01/09 17:13:02.2  INFO   13812 FlashStream.cpp[126]         setBufferTime 3000ms on stream dron
+01/09 17:13:03.0  INFO   13812 Server.cpp[119]              2 clients
+01/09 17:13:29.1  WARN   13812 TCPSession.cpp[32]           RTMP 2-10.219.142.59:54945, Connection aborted
+01/09 17:13:31.1  INFO   13812 Server.cpp[119]              1 clients
+01/09 17:13:38.2  WARN   13812 TCPSession.cpp[32]           RTMP 1-10.219.142.212:58520, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+01/09 17:13:38.2  WARN   13812 TCPSession.cpp[32]           RTMP 1-10.219.142.212:58520, Connection aborted
+01/09 17:13:38.2  INFO   13812 Publication.cpp[205]         Publication dron stopped
+01/09 17:13:39.1  INFO   13812 Server.cpp[119]              0 clients
+01/09 17:50:55.1  ERROR  13812 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+01/09 17:50:55.1  ERROR  13812 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+01/09 17:50:55.1  INFO   13812 Publication.cpp[128]         Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+01/09 17:50:55.6  INFO   13812 Server.cpp[119]              1 clients
+01/09 17:51:48.3  WARN   13812 TCPSession.cpp[32]           RTMP 2-10.219.142.212:53908, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+01/09 17:51:48.3  WARN   13812 TCPSession.cpp[32]           RTMP 2-10.219.142.212:53908, Connection aborted
+01/09 17:51:48.3  INFO   13812 Publication.cpp[205]         Publication dron stopped
+01/09 17:51:49.8  INFO   13812 Server.cpp[119]              0 clients
+01/09 17:52:13.2  ERROR  13812 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+01/09 17:52:13.2  ERROR  13812 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+01/09 17:52:13.2  INFO   13812 Publication.cpp[128]         Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+01/09 17:52:13.9  INFO   13812 Server.cpp[119]              1 clients
+01/09 17:52:20.1  ERROR  13812 FlashMainStream.cpp[150]     Method client getStreamLength not found in application live/
+01/09 17:52:20.1  INFO   13812 FlashStream.cpp[126]         setBufferTime 3000ms on stream dron
+01/09 17:52:21.9  INFO   13812 Server.cpp[119]              2 clients
+01/09 17:54:19.3  WARN   13812 TCPSession.cpp[32]           RTMP 2-10.219.142.59:52468, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+01/09 17:54:19.3  WARN   13812 TCPSession.cpp[32]           RTMP 2-10.219.142.59:52468, Connection aborted
+01/09 17:54:20.3  INFO   13812 Server.cpp[119]              1 clients
+01/09 17:54:36.8  WARN   13812 TCPSession.cpp[32]           RTMP 1-10.219.142.212:45280, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+01/09 17:54:36.8  WARN   13812 TCPSession.cpp[32]           RTMP 1-10.219.142.212:45280, Connection aborted
+01/09 17:54:36.8  INFO   13812 Publication.cpp[205]         Publication dron stopped
+01/09 17:54:38.4  INFO   13812 Server.cpp[119]              0 clients
+01/09 18:20:51.0  ERROR  13812 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+01/09 18:20:51.0  ERROR  13812 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+01/09 18:20:51.1  FATAL  13812 Server.cpp[133]              Server, A LUAPublication 000002A0A800DE20 was not released properly, c:\travail\monaworkspace\monaserver2\monaserver\sources\Script.h[402]
+01/09 18:20:51.1  INFO   13812 Service.cpp[216]             Application www../live stopped
+01/09 18:20:51.1  WARN   13812 Sessions.cpp[30]             sessions are deleting
+01/09 18:24:19.0  INFO   13568 Application.cpp[134]         MonaServer v2.723
+01/09 18:24:19.0  INFO   13568 Application.cpp[136]         Load configuration file MonaServer.ini
+01/09 18:24:19.0  NOTE   13796 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+01/09 18:24:19.0  NOTE   13796 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+01/09 18:24:19.0  NOTE   13796 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+01/09 18:24:19.0  NOTE   13796 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+01/09 18:24:19.0  NOTE   13796 Protocols.h[82]              WS server started on 0.0.0.0:80
+01/09 18:24:19.0  NOTE   13796 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+01/09 18:24:19.0  NOTE   13796 Protocols.h[82]              WSS server started on 0.0.0.0:443
+01/09 18:24:19.0  NOTE   13796 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+01/09 18:28:42.8  INFO   3352 Application.cpp[134]          MonaServer v2.723
+01/09 18:28:42.8  INFO   3352 Application.cpp[136]          Load configuration file MonaServer.ini
+01/09 18:28:42.8  NOTE   4488 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+01/09 18:28:42.8  NOTE   4488 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+01/09 18:28:42.8  NOTE   4488 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+01/09 18:28:42.8  NOTE   4488 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+01/09 18:28:42.8  NOTE   4488 Protocols.h[82]               WS server started on 0.0.0.0:80
+01/09 18:28:42.8  NOTE   4488 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+01/09 18:28:42.8  NOTE   4488 Protocols.h[82]               WSS server started on 0.0.0.0:443
+01/09 18:28:42.8  NOTE   4488 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+01/09 18:31:29.5  INFO   17172 Application.cpp[134]         MonaServer v2.723
+01/09 18:31:29.5  INFO   17172 Application.cpp[136]         Load configuration file MonaServer.ini
+01/09 18:31:29.5  NOTE   16764 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+01/09 18:31:29.5  NOTE   16764 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+01/09 18:31:29.5  NOTE   16764 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+01/09 18:31:29.5  NOTE   16764 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+01/09 18:31:29.5  NOTE   16764 Protocols.h[82]              WS server started on 0.0.0.0:80
+01/09 18:31:29.5  NOTE   16764 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+01/09 18:31:29.5  NOTE   16764 Protocols.h[82]              WSS server started on 0.0.0.0:443
+01/09 18:31:29.5  NOTE   16764 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+01/09 18:33:44.7  ERROR  16764 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+01/09 18:33:44.7  ERROR  16764 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+01/09 18:33:44.7  INFO   16764 Publication.cpp[128]         Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+01/09 18:33:46.0  INFO   16764 Server.cpp[119]              1 clients
+01/09 18:33:58.8  ERROR  16764 FlashMainStream.cpp[150]     Method client getStreamLength not found in application live/
+01/09 18:33:58.8  INFO   16764 FlashStream.cpp[126]         setBufferTime 3000ms on stream dron
+01/09 18:34:00.1  INFO   16764 Server.cpp[119]              2 clients
+01/09 18:34:22.3  WARN   16764 TCPSession.cpp[32]           RTMP 2-10.219.142.59:49839, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+01/09 18:34:22.3  WARN   16764 TCPSession.cpp[32]           RTMP 2-10.219.142.59:49839, Connection aborted
+01/09 18:34:24.1  INFO   16764 Server.cpp[119]              1 clients
+01/09 18:34:26.7  ERROR  16764 FlashMainStream.cpp[150]     Method client getStreamLength not found in application live/
+01/09 18:34:26.7  INFO   16764 FlashStream.cpp[126]         setBufferTime 3000ms on stream dron
+01/09 18:34:28.1  INFO   16764 Server.cpp[119]              2 clients
+01/09 18:34:45.5  WARN   16764 TCPSession.cpp[32]           RTMP 2-10.219.142.59:49843, Connection reseted (from=0.0.0.0:0, size=42, flags=0)
+01/09 18:34:45.5  WARN   16764 TCPSession.cpp[32]           RTMP 2-10.219.142.59:49843, Connection aborted
+01/09 18:34:46.2  INFO   16764 Server.cpp[119]              1 clients
+01/09 18:34:58.4  WARN   16764 TCPSession.cpp[32]           RTMP 1-10.219.142.212:50426, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+01/09 18:34:58.4  WARN   16764 TCPSession.cpp[32]           RTMP 1-10.219.142.212:50426, Connection aborted
+01/09 18:34:58.4  INFO   16764 Publication.cpp[205]         Publication dron stopped
+01/09 18:35:00.3  INFO   16764 Server.cpp[119]              0 clients
+01/09 19:04:57.0  ERROR  16764 FlashMainStream.cpp[150]     Method client releaseStream not found in application live/
+01/09 19:04:57.0  ERROR  16764 FlashMainStream.cpp[150]     Method client FCPublish not found in application live/
+01/09 19:04:57.0  INFO   16764 Publication.cpp[128]         Publication dron {append: false, duration: 0, segments: 0, server: mona} started
+01/09 19:04:57.4  INFO   16764 Server.cpp[119]              1 clients
