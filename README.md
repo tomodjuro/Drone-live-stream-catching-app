@@ -67,6 +67,13 @@ Drone-live-stream-catching-app/
 └── README.md                               # Project documentation
 ```
 
+## Third-Party Software & Acknowledgments
+
+This project bundles or integrates with the following third-party software:
+
+- **[MonaServer](https://github.com/MonaServer/MonaServer)** - Distributed under the GNU General Public License v3.0 (GPLv3).
+- **[FFmpeg / FFplay](https://ffmpeg.org/)** - Distributed under the GNU Lesser General Public License (LGPL) / GPL.
+
 ---
 
 ## License
