@@ -48,7 +48,7 @@ else:
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 ICON_PATH = os.path.join(BASE_DIR, "icon.ico")
-UPUTE_PATH = os.path.join(BASE_DIR, "upute.txt")
+UPUTE_PATH = os.path.join(BASE_DIR, "app_instructions.txt")
 FFPLAY_PATH = os.path.join(BASE_DIR, "ffplay.exe")
 
 
@@ -72,7 +72,7 @@ class UputeDialog(QDialog):
     """Prozor za prikaz tekstualnih uputa iz upute.md."""
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.setWindowTitle("Upute za korištenje")
+        self.setWindowTitle("Instructions")
         self.resize(500, 400)
         self.setWindowIcon(get_app_icon())
 
@@ -113,11 +113,11 @@ class UputeDialog(QDialog):
                 with open(UPUTE_PATH, "r", encoding="utf-8", errors="replace") as f:
                     self.text_edit.setText(f.read())
             except Exception as e:
-                self.text_edit.setText(f"Greška pri čitanju datoteke upute.md:\n{e}")
+                self.text_edit.setText(f"error while loading app_instructions.txt:\n{e}")
         else:
-            self.text_edit.setText("Datoteka 'upute.md' nije pronađena u mapi aplikacije.")
+            self.text_edit.setText("File app_instructions.txt is not in main folder.")
 
-        close_button = QPushButton("Zatvori")
+        close_button = QPushButton("Close")
         close_button.clicked.connect(self.accept)
 
         layout.addWidget(self.text_edit)
@@ -203,13 +203,13 @@ class MainWindow(QWidget):
 
         # PID i Vrijeme
         self.pidLabel = QLabel("PID: -")
-        self.timeLabel = QLabel("Zadnja provjera: -")
+        self.timeLabel = QLabel("last check: -")
 
         # Gumbi
-        self.uputeButton = QPushButton("Upute")
-        self.playStreamButton = QPushButton("Otvori Live Stream")
-        self.startButton = QPushButton("Pokreni MonaServer")
-        self.stopButton = QPushButton("Zaustavi MonaServer")
+        self.uputeButton = QPushButton("Instructions")
+        self.playStreamButton = QPushButton("Open Live Stream")
+        self.startButton = QPushButton("Start MonaServer")
+        self.stopButton = QPushButton("Stop MonaServer")
 
         # Izgled Upute gumba
         self.uputeButton.setStyleSheet("""
@@ -250,7 +250,7 @@ class MainWindow(QWidget):
         # Main Layout
         layout = QVBoxLayout()
 
-        layout.addWidget(QLabel("IP adresa računala:"))
+        layout.addWidget(QLabel("IP address:"))
         layout.addWidget(self.ipLabel)
 
         layout.addSpacing(10)
@@ -260,12 +260,12 @@ class MainWindow(QWidget):
 
         layout.addSpacing(15)
 
-        layout.addWidget(QLabel("Status MonaServera:"))
+        layout.addWidget(QLabel("Status MonaServer:"))
         layout.addLayout(server_status_layout)
 
         layout.addSpacing(5)
 
-        layout.addWidget(QLabel("Status Dron Streama:"))
+        layout.addWidget(QLabel("Status Dron Stream:"))
         layout.addLayout(stream_status_layout)
 
         layout.addSpacing(5)
@@ -311,9 +311,9 @@ class MainWindow(QWidget):
         if not os.path.exists(FFPLAY_PATH):
             QMessageBox.critical(
                 self,
-                "Datoteka nije pronađena",
-                f"Datoteka 'ffplay.exe' nije pronađena na putanji:\n\n{FFPLAY_PATH}\n\n"
-                "Provjeri je li ffplay.exe u istoj mapi gdje je i mona_launcher.py!"
+                "File not found",
+                f"File 'ffplay.exe' is not in path:\n\n{FFPLAY_PATH}\n\n"
+                "Check if ffplay.exe is in the same folder as mona_launcher.py!"
             )
             return
 
@@ -336,16 +336,16 @@ class MainWindow(QWidget):
         except Exception as e:
             QMessageBox.critical(
                 self,
-                "Greška pri pokretanju",
-                f"Nije moguće pokrenuti FFplay:\n\n{str(e)}"
+                "Opening error",
+                f"Could not open FFplay:\n\n{str(e)}"
             )
 
     def update_status(self):
         now = datetime.now().strftime("%H:%M:%S")
-        self.timeLabel.setText(f"Zadnja provjera: {now}")
+        self.timeLabel.setText(f"Last check: {now}")
 
         if is_running():
-            self.statusLabel.setText("MonaServer radi")
+            self.statusLabel.setText("MonaServer is on")
             self.pidLabel.setText(f"PID: {get_pid()}")
             self.statusLight.setStyleSheet("""
             background-color:#2ECC71;
@@ -356,28 +356,28 @@ class MainWindow(QWidget):
 
             # Provjera primanja streama
             if is_streaming():
-                self.streamLabel.setText("Stream aktivan (Dron spojen)")
+                self.streamLabel.setText("Stream active (Drone connected)")
                 self.streamLight.setStyleSheet("""
                 background-color:#2ECC71;
                 border-radius:9px;
                 """)
                 self.playStreamButton.setEnabled(True)
             else:
-                self.streamLabel.setText("Nema aktivnog streama")
+                self.streamLabel.setText("No active stream")
                 self.streamLight.setStyleSheet("""
                 background-color:#E74C3C;
                 border-radius:9px;
                 """)
                 self.playStreamButton.setEnabled(False)
         else:
-            self.statusLabel.setText("MonaServer nije pokrenut")
+            self.statusLabel.setText("MonaServer is off")
             self.pidLabel.setText("PID: -")
             self.statusLight.setStyleSheet("""
             background-color:#E74C3C;
             border-radius:9px;
             """)
 
-            self.streamLabel.setText("Server isključen")
+            self.streamLabel.setText("Server is off")
             self.streamLight.setStyleSheet("""
             background-color:#555555;
             border-radius:9px;
@@ -401,8 +401,8 @@ class MainWindow(QWidget):
 
         menu = QMenu()
 
-        showAction = QAction("Otvori", self)
-        quitAction = QAction("Izlaz", self)
+        showAction = QAction("Open", self)
+        quitAction = QAction("Exit", self)
 
         showAction.triggered.connect(self.show_window)
         quitAction.triggered.connect(QApplication.quit)
